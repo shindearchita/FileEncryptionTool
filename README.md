@@ -2,72 +2,71 @@
 
 ## 📌 Overview
 
-This is a Python-based File Encryption Tool with a graphical user interface (GUI) built using Tkinter. The application allows users to encrypt and decrypt files securely using password-based encryption with the Fernet cryptographic algorithm.
+File Encryption Tool is a Python-based GUI application designed to securely encrypt and decrypt files using password-based encryption. The application provides a simple user interface while implementing cybersecurity practices such as secure key generation, password strength validation, and activity monitoring.
+
+The project demonstrates practical implementation of data protection concepts, encryption techniques, and secure logging practices.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- Encrypt files securely
-- Decrypt encrypted files
-- Password-based encryption
-- User-friendly GUI using Tkinter
-- Secure key generation using SHA-256
-- Error handling for incorrect passwords and missing files
-
----
-
-## 🛠 Technologies Used
-
-- Python
-- Tkinter
-- Cryptography (Fernet)
-- Hashlib
-- Base64
-- OS Module
+- 🔒 Secure file encryption and decryption
+- 🔑 Password-based key generation using SHA-256 hashing
+- 🛡️ Password strength checker
+- 📋 Secure activity logging
+- 🚨 Failed decryption attempt monitoring
+- 📂 File selection through graphical interface
+- 👁️ Show/Hide password option
+- ✅ File validation before encryption
+- 🖥️ User-friendly Tkinter GUI
 
 ---
 
-## 🚀 Installation
+## 🛠️ Technologies Used
 
-Install the required package:
-
-```bash
-pip install cryptography
-```
-
-Run the application:
-
-```bash
-python filename.py
-```
-
----
-
-## 📂 Project Structure
-
-```
-FileEncryptionTool/
-│── file_encryption_tool.py
-│── README.md
-```
+- **Programming Language:** Python
+- **GUI Framework:** Tkinter
+- **Encryption Library:** Cryptography (Fernet)
+- **Hashing Algorithm:** SHA-256
+- **Libraries:**
+  - os
+  - hashlib
+  - base64
+  - logging
+  - re
+  - datetime
 
 ---
 
-## 🎯 Learning Outcomes
+## 🔐 Security Implementation
 
-- File encryption and decryption
-- Cryptography fundamentals
-- Password-based key generation
-- GUI development using Tkinter
-- Secure file handling in Python
+### Password-Based Encryption
+The application generates a secure encryption key from the user password using SHA-256 hashing and uses Fernet symmetric encryption for protecting files.
+
+### Secure Logging
+The application records security events such as:
+
+Sensitive information such as passwords and encryption keys are never stored.
+
+### Failed Access Monitoring
+
+Incorrect decryption attempts are recorded for security monitoring:
 
 ---
 
-## 👩‍💻 Author
+Learning Outcomes
 
-**Archita Shinde**
+Through this project, I gained practical experience in:
+
+Symmetric encryption concepts
+Password-based security
+Cryptographic hashing
+Secure logging practices
+GUI application development
+Basic security monitoring concepts
+
+Developed By
+
+Archita Shinde
 
 Cybersecurity Enthusiast | SOC Analyst Aspirant
-
-GitHub: https://github.com/shindearchita
