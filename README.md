@@ -48,7 +48,7 @@ python filename.py
 
 ```
 FileEncryptionTool/
-│── filename.py
+│── file_encryption_tool.py
 │── README.md
 ```
 
